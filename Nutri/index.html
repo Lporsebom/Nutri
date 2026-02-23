@@ -21,6 +21,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Fallback para imagens */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <!-- WhatsApp Floating Button -->
@@ -36,11 +44,11 @@
     <header class="header" id="header">
         <nav class="navbar">
             <div class="nav-container">
-                <a href="#" class="logo">Dr. Leandro<span>P</span></a>
+                <a href="#home" class="logo">Dr. Leandro<span>P</span></a>
                 
                 <div class="nav-menu" id="navMenu">
                     <ul>
-                        <li><a href="#home">Início</a></li>
+                        <li><a href="#home" class="active">Início</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#services">Serviços</a></li>
                         <li><a href="#benefits">Benefícios</a></li>
@@ -66,7 +74,10 @@
         <div class="parallax-layer-2"></div>
         
         <div class="hero-decorative">
-            <img src="assets/Fruit.png" alt="Alimentos saudáveis" loading="lazy">
+            <img src="assets/Fruit.png" 
+                 alt="Alimentos saudáveis" 
+                 loading="lazy"
+                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/Fruit.png';">
         </div>
         
         <div class="container hero-container">
@@ -82,7 +93,10 @@
             
             <div class="hero-image">
                 <div class="image-wrapper">
-                    <img src="assets/body.png" alt="Estilo de vida saudável" loading="lazy">
+                    <img src="assets/body.png" 
+                         alt="Estilo de vida saudável" 
+                         loading="lazy"
+                         onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/body.png';">
                 </div>
             </div>
         </div>
@@ -94,14 +108,17 @@
             <div class="about-grid">
                 <div class="about-image">
                     <div class="image-wrapper">
-                        <img src="assets/Paulo.jpg" alt="Saúde e bem-estar" loading="lazy">
+                        <img src="assets/Paulo.jpg" 
+                             alt="Dr. Leandro P" 
+                             loading="lazy"
+                             onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/Paulo.jpg';">
                     </div>
                 </div>
                 
                 <div class="about-content">
                     <span class="section-subtitle">QUEM SOU EU</span>
                     <h2>Dr. Leandro P</h2>
-                    <p class="about-description">CRN: Adc o próprio | Especialista em Nutrição Clínica e Esportiva</p>
+                    <p class="about-description">CRN: 12345 | Especialista em Nutrição Clínica e Esportiva</p>
                     
                     <p>Ajudo meus pacientes a alcançarem uma relação saudável com a comida e transformarem seus corpos de forma sustentável. Minha abordagem vai além da dieta: trabalho a consciência alimentar e o equilíbrio emocional para resultados que duram.</p>
                     
@@ -111,7 +128,6 @@
                             <div>
                                 <h4>Formação</h4>
                                 <p>UNIFESP | Especialização em Nutrição Esportiva - USP</p>
-                                
                             </div>
                         </div>
                         <div class="feature">
@@ -145,7 +161,10 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="services-decoration">
-            <img src="assets/gym.png" alt="Academia" class="services-bg">
+            <img src="assets/gym.png" 
+                 alt="Academia" 
+                 class="services-bg"
+                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/gym.png';">
         </div>
         <div class="container">
             <div class="section-header">
@@ -270,7 +289,10 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
         <div class="testimonials-decoration">
-            <img src="assets/body.png" alt="Pessoa saudável" loading="lazy">
+            <img src="assets/body.png" 
+                 alt="Pessoa saudável" 
+                 loading="lazy"
+                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/body.png';">
         </div>
         <div class="container">
             <div class="section-header">
@@ -341,11 +363,17 @@
                 <div class="result-card">
                     <div class="result-images">
                         <div class="before-img">
-                            <img src="assets/body.png" alt="Antes" loading="lazy">
+                            <img src="assets/body.png" 
+                                 alt="Antes" 
+                                 loading="lazy"
+                                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/body.png';">
                             <span class="img-label">Antes</span>
                         </div>
                         <div class="after-img">
-                            <img src="assets/gym.png" alt="Depois" loading="lazy">
+                            <img src="assets/gym.png" 
+                                 alt="Depois" 
+                                 loading="lazy"
+                                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/gym.png';">
                             <span class="img-label">Depois</span>
                         </div>
                     </div>
@@ -363,11 +391,17 @@
                 <div class="result-card">
                     <div class="result-images">
                         <div class="before-img">
-                            <img src="assets/body.png" alt="Antes" loading="lazy">
+                            <img src="assets/body.png" 
+                                 alt="Antes" 
+                                 loading="lazy"
+                                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/body.png';">
                             <span class="img-label">Antes</span>
                         </div>
                         <div class="after-img">
-                            <img src="assets/gym.png" alt="Depois" loading="lazy">
+                            <img src="assets/gym.png" 
+                                 alt="Depois" 
+                                 loading="lazy"
+                                 onerror="this.onerror=null; this.src='https://github.com/Lporsebom/Nutri/raw/main/Nutri/assets/gym.png';">
                             <span class="img-label">Depois</span>
                         </div>
                     </div>
@@ -430,14 +464,14 @@
                 </a>
                 
                 <!-- Instagram -->
-                <a href="https://www.instagram.com/dra.leandrop" target="_blank" class="social-premium-card instagram">
+                <a href="https://www.instagram.com/dr.leandrop" target="_blank" class="social-premium-card instagram">
                     <div class="social-premium-header">
                         <div class="social-premium-icon">
                             <i class="fab fa-instagram"></i>
                         </div>
                         <div class="social-premium-info">
                             <h3>Instagram</h3>
-                            <span class="social-handle">@dra.leandrop</span>
+                            <span class="social-handle">@dr.leandrop</span>
                         </div>
                         <div class="social-badge">Siga-me</div>
                     </div>
@@ -464,14 +498,14 @@
                 </a>
                 
                 <!-- TikTok -->
-                <a href="https://www.tiktok.com/@dra.leandrop" target="_blank" class="social-premium-card tiktok">
+                <a href="https://www.tiktok.com/@dr.leandrop" target="_blank" class="social-premium-card tiktok">
                     <div class="social-premium-header">
                         <div class="social-premium-icon">
                             <i class="fab fa-tiktok"></i>
                         </div>
                         <div class="social-premium-info">
                             <h3>TikTok</h3>
-                            <span class="social-handle">@dra.leandrop</span>
+                            <span class="social-handle">@dr.leandrop</span>
                         </div>
                         <div class="social-badge">Siga-me</div>
                     </div>
@@ -498,14 +532,14 @@
                 </a>
                 
                 <!-- YouTube -->
-                <a href="https://youtube.com/@dra.anasilva" target="_blank" class="social-premium-card youtube">
+                <a href="https://youtube.com/@drleandrop" target="_blank" class="social-premium-card youtube">
                     <div class="social-premium-header">
                         <div class="social-premium-icon">
                             <i class="fab fa-youtube"></i>
                         </div>
                         <div class="social-premium-info">
                             <h3>YouTube</h3>
-                            <span class="social-handle">@dra.anasilva</span>
+                            <span class="social-handle">@drleandrop</span>
                         </div>
                         <div class="social-badge">Inscreva-se</div>
                     </div>
@@ -513,11 +547,11 @@
                     <div class="social-preview">
                         <div class="preview-item">
                             <i class="fas fa-clock"></i>
-                            <span>Treinos</span>
+                            <span>Dicas</span>
                         </div>
                         <div class="preview-item">
                             <i class="fas fa-book-open"></i>
-                            <span>Dicas</span>
+                            <span>Receitas</span>
                         </div>
                         <div class="preview-item">
                             <i class="fas fa-users"></i>
@@ -562,8 +596,8 @@
                             <i class="far fa-envelope"></i>
                         </div>
                         <h3>E-mail</h3>
-                        <p class="contact-value">Porsebom_@outlook.com</p>
-                        <a href="mailto:Porsebom_@outlook.com" class="contact-action">
+                        <p class="contact-value">contato@drleandrop.com.br</p>
+                        <a href="mailto:contato@drleandrop.com.br" class="contact-action">
                             <span>Enviar e-mail</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>
@@ -619,6 +653,7 @@
                 <div class="footer-brand">
                     <h3>Dr. Leandro<span>P</span></h3>
                     <p>Nutrição que transforma vidas</p>
+                    <p style="font-size: 12px; margin-top: 10px;">CRN: 12345</p>
                 </div>
                 
                 <div class="footer-links">
@@ -627,6 +662,9 @@
                         <li><a href="#home">Início</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#services">Serviços</a></li>
+                        <li><a href="#benefits">Benefícios</a></li>
+                        <li><a href="#testimonials">Depoimentos</a></li>
+                        <li><a href="#results">Resultados</a></li>
                         <li><a href="#contact">Contato</a></li>
                     </ul>
                 </div>
@@ -635,23 +673,22 @@
                     <h4>Contato</h4>
                     <ul>
                         <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5519982713364">(19) 98271-3364</a></li>
-                        <li><i class="far fa-envelope"></i> <a href="mailto:Porsebom_@outlook.com">Porsebom_@outlook.com</a></li>
+                        <li><i class="far fa-envelope"></i> <a href="mailto:contato@drleandrop.com.br">contato@drleandrop.com.br</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-social">
                     <h4>Redes sociais</h4>
                     <div class="social-links">
-                        <a href="https://www.instagram.com/dra.anasilva" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.tiktok.com/@dra.anasilva" target="_blank"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://youtube.com/@dra.anasilva" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/dr.leandrop" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@dr.leandrop" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://youtube.com/@drleandrop" target="_blank"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2026 Dra. Ana Silva - Nutricionista. Todos os direitos reservados.</p>
-                <p>CRN: 12345</p>
+                <p>&copy; 2026 Dr. Leandro P - Nutricionista. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
